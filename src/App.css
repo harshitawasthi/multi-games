@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+/* display: grid;
+  grid:
+    "header"
+    "body"
+    "footer";
+}
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: body;
+}
+.item3 {
+  grid-area: footer;
+} */
