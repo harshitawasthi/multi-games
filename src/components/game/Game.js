@@ -2,6 +2,8 @@
 import React,{useState} from "react";
 import "./Game.css";
 import Button from "./Gameinput";
+import {Link} from "react-router-dom";
+import {Stylebutton2} from "../../lib/style/Style";
 
 
 // let arr=["😊","😂","✋","👌","😒","✌","😜"];
@@ -46,6 +48,9 @@ const Gameemoji= () =>{
     return <div>
          {result}
          <Button change={reload}/>
+         <Link to="/game2">
+         <Stylebutton2>Tic-Tac-Toe</Stylebutton2>
+         </Link>
          </div>        
     }
 

@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 import './Game2.css';
 import {Namedata} from "../../biodata/Biodata";
-
+import {Link} from "react-router-dom";
+import {Stylebutton2} from "../../../lib/style/Style";
 
 class Game2 extends Component {
   constructor(props) {
@@ -54,6 +55,9 @@ class Game2 extends Component {
         })}
         </div>
         {this.state.winner ? <h2 className="winner">{`The final winner: ${this.state.winner}`}</h2> : null}
+        <Link to="/game1">
+        <Stylebutton2>Slot Machine </Stylebutton2>
+         </Link>
       </div>
     )
   }
