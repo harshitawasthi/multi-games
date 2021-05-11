@@ -52,10 +52,10 @@ function Value(){
 const Button=()=>{
     return <div>
     <Link to="/game1">
-    <button>Game1</button>
+    <button>Slot Machine </button>
     </Link>
     <Link to="/game2">
-    <button>Game2</button>
+    <button>Tic-Tac-Toe</button>
     </Link>
     {/* {console.log(Biodata)} */}
 </div>  
